@@ -11,7 +11,7 @@
         * 이지원 - Modeling, Cart API
         * 박건규 - Modeling, SignIn, Product Detail API, Order API
     * Front-end  
-        * 신윤숙 - Login, Order
+        * **신윤숙 - Login, Order**
         * 전슬기 - Product List, Product Detail
         * 김준영 - Sign Up, Cart 
      * <a href="https://github.com/wecode-bootcamp-korea/30-1st-CaKoo-frontend">프론트 github 링크</a>
@@ -38,7 +38,7 @@
 
 * ## 사이트 선정 이유
     * 깔끔한 UI
-    * 이커머스의 기본 기능인 로그인, 회원가입, 상품 조회, 옵션 선택, 장바구니, 주문 기능을 모두 담고 있음
+    * 이커머스의 기본 기능인 **로그인**, 회원가입, 상품 조회, 옵션 선택, 장바구니, 주문 기능을 모두 담고 있음
 
 <br><br>
 
@@ -56,7 +56,7 @@
 * 짧은 기간동안 기능구현에 집중해야하므로 사이트의 디자인과 기획만 클론
 * 개발은 초기세팅부터 전부 직접 구현
 * 사이트 카테고리 중 '꽃다발'만 구현
-* 필수 구현 사항을 회원가입, 로그인, 상품 조회, 장바구니, 주문기능으로 설정 
+* 필수 구현 사항을 회원가입, **로그인**, 상품 조회, 장바구니, **주문기능**으로 설정 
 * 한 상품에 여러 옵션(사이즈)이 적용될 수 있게 기획
 
 <br><br>
@@ -87,7 +87,7 @@
         <a href="#"><img src="https://img.shields.io/badge/Trello-2580F7?style=plastic&logo=trello&logoColor=white"/></a>
         <a href="#"><img src="https://img.shields.io/badge/Notion-F7F7F7?style=plastic&logo=notion&logoColor=black"/></a>
 * ## 구현기능
-    * 회원가입 / 로그인
+    * 회원가입 / **로그인**
         - 유효성 검사 : input에 사용자가 입력한 값이 주어진 조건을 만족할 때만 버튼을 활성화
         - 백엔드와 통신을 통해 input으로 받은 값을 전달하고, 로그인 시 token을 받아 localStorage에 저장
         - token이 있을 때, 조건부 렌더링을 이용하여 페이지 상단 nav의 로그인/회원가입이 로그아웃/장바구니로 전환
@@ -102,7 +102,7 @@
     * 장바구니
         - 백엔드와 통신하여 해당 사용자의 장바구니에 담긴 상품 정보 불러오기
         - 선택한 상품 즉시 삭제(백엔드 데이터베이스에까지 삭제됨)
-    * 주문
+    * **주문**
         - 장바구니에 저장된 상품정보와 사용자 정보를 넘겨받아 그려냄
         - 백엔드에 주문서의 상품을 주문하는 요청을 보냄
 <br><br>
